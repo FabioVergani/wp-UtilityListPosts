@@ -1,5 +1,5 @@
 # wp-UtilityListPosts
 
-List post by qs ?type=&terms=
+List post by querystring ?type=&status=&terms=
 
-eg.: /page-utility-list-posts/?type=mycpt&terms=a,b,ecc
+eg.: /page-utility-list-posts/?type=mycpt&status=&terms=a,b,ecc
