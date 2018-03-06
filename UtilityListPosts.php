@@ -18,6 +18,7 @@ if(isset($_GET['type'])){
 			if(isset($_GET['terms'])){
 				$terms=$_GET['terms'];
 				if(!Empty($terms)){
+					$terms=urldecode($terms);
 					$taxQuery['terms']=explode(',',$terms);
 					$Query['tax_query']=[$taxQuery];
 				};
